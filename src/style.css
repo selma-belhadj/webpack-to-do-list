@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-shadow: rgb(0 0 0 / 24%) 0 3px 8px;
+  max-width: 40%;
+  margin: 50px auto;
+}
+
+.title {
+  padding: 3%;
+  color: #444b57;
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0;
+  position: relative;
+  border-top: 0.6px solid rgb(216 216 216);
+  border-right: none;
+  border-bottom: 0.6px solid rgb(216 216 216);
+  border-left: none;
+}
+
+.task-edit {
+  border: none;
+}
+
+form input[type="text"] {
+  border: none;
+  font-style: italic;
+  width: 85%;
+  padding: 3%;
+}
+
+form .add-btn {
+  position: relative;
+  right: 3.2%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+.task-item {
+  padding: 3%;
+  border-bottom: 0.6px solid rgb(216 216 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.clear {
+  background-color: rgb(240 240 240 / 20%);
+  text-align: center;
+  padding: 3%;
+}
+
+.clear a {
+  cursor: pointer;
+  color: rgb(80 75 75);
+}
+
+.clear a:hover {
+  color: #444b57;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.checked {
+  text-decoration: line-through;
+}
